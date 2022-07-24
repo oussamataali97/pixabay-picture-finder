@@ -6,7 +6,7 @@ function ImageRes({img}) {
     <div className=' grid md:grid-cols-2 lg:grid-cols-3 p-3 gap-10 mt-5 justify-items-center items-center	'>
       {img.map(image=>(
         <div className="img" key={image.id}>
-            <div class="card sm:w-96 bg-base-100 shadow-xl">
+            <div class="card sm:w-96 bg-base-100 shadow-xl hover:bg-sky-100 cursor-pointer">
   <figure><img src={image.webformatURL} alt="Shoes" /></figure>
   <div class="card-body">
     <h2 class="card-title font-normal">
